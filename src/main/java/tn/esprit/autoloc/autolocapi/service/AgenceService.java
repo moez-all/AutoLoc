@@ -8,6 +8,6 @@ public interface AgenceService {
     Agence ajouteragence(Agence agence);
     Agence modifieragence(Agence agence);
     List<Agence> afficherToutesAgences();
-    Agence afficherAgenceBuId(Long id);
+    Agence afficherAgenceById(Long id);
     void supprimerAgence(Long id);
 }
